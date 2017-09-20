@@ -185,6 +185,13 @@
 %==============================================================================
 \setbeamertemplate{headline}{
  \leavevmode
+ \vskip1cm
+    \centering
+    \usebeamercolor{title in headline}{\color{bured}\Huge{\textbf{\inserttitle}}\\[0.5ex]}
+    \usebeamercolor{author in headline}{\color{fg}\Large{\insertauthor}\\[1ex]}
+    \usebeamercolor{institute in headline}{\color{fg}\large{\insertinstitute}\\[1ex]}
+    \vspace{-8.5cm}
+
   \begin{columns}
    \begin{column}{.2\linewidth}
    \vspace*{\fill}
@@ -192,13 +199,7 @@
    \vspace{-6cm}
    \end{column}
    \begin{column}{.6\linewidth}
-    \vskip1cm
-    \centering
-    \usebeamercolor{title in headline}{\color{bured}\Huge{\textbf{\inserttitle}}\\[0.5ex]}
-    \usebeamercolor{author in headline}{\color{fg}\Large{\insertauthor}\\[1ex]}
-    \usebeamercolor{institute in headline}{\color{fg}\large{\insertinstitute}\\[1ex]}
-    \vskip1cm
-   \end{column}
+      \end{column}
    \begin{column}{.2\linewidth}
    \vspace{6cm}
    \begin{flushright}~~~~~~~~~~\textsf{\large{bu.edu/cs}}\end{flushright}
